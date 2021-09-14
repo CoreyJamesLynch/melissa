@@ -9,11 +9,12 @@ class NavigationBar extends React.Component {
           <Navbar.Brand href='/'>Melissa's Mindset</Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
-            <Nav className='me-auto'>
-            </Nav>
+            <Nav className='me-auto'></Nav>
             <Nav>
               <Nav.Link href='/plans'>Plans</Nav.Link>
-              <Nav.Link eventKey={2} href='/about'>About</Nav.Link>
+              <Nav.Link eventKey={2} href='/about'>
+                About
+              </Nav.Link>
               <Nav.Link eventKey={3} href='/contact'>
                 Commit
               </Nav.Link>
