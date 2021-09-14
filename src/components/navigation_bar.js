@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
-class NavigationBar extends React.Component {
+class NavigationBar extends React.PureComponent {
   render() {
     return (
       <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
