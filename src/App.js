@@ -1,8 +1,12 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
+import NavBar from './components/navbar';
+import Plans from './views/plans';
+import Home from './views/home';
+import About from './views/about';
+import Contact from './views/contact';
 
 function App() {
-  return <Button> Hello World</Button>;
+  return <NavBar> HELLO WORLD </NavBar>;
 }
 
 export default App;
