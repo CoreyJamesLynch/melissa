@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-class Home extends React.Component {
+class Home extends React.PureComponent {
   render() {
     return (
       <>
         <Container>
-          <h1>This is the Contact Page!!!!</h1>
+          <h1>This is the Home Page!!!!</h1>
         </Container>
       </>
     );
