@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-class Plans extends React.Component {
+class Plans extends React.PureComponent {
   render() {
     return (
       <>
