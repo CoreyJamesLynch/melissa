@@ -4,12 +4,19 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 class NavigationBar extends React.PureComponent {
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+        py-3
+        fixed-top
+      >
         <Container>
           <Navbar.Brand href="/">Melissa&apos;s Mindset</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto" />
+            <Nav className="ms-auto" />
             <Nav>
               <Nav.Link href="/plans">Plans</Nav.Link>
               <Nav.Link eventKey={2} href="/about">
